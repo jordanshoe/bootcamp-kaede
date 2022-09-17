@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Properties</title>
+
+    <style>
+        a{
+            /* inline-block = hybrid */
+            display: inline-block; 
+            border: 1px solid red;
+            width: 200px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+        li{
+            display: inline-block;
+            border: 1px solid blue;
+            width: 200px;
+        }
+
+
+        /* ------z-index-------- */
+        div{
+            width: 100px;
+            height: 100px;
+            
+        }
+    
+        .layer1{
+            background: teal;
+            position: relative;
+            top: 50px;
+            left: 75px;
+            z-index: 100;
+        }
+        .layer2{
+            background: tomato;
+            position: relative;
+            z-index: 101;
+        }
+        .layer3{
+            background: purple;
+            position: relative;
+            bottom: 75px;
+            left: 50px;
+            z-index: 100000;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- inline elements -->
+    <a href="">Home</a>
+    <a href="">About</a>
+    <a href="">Contact</a>
+
+    <!-- block elements -->
+    <h1>My Blog</h1>
+    <h2>Kaede Okawa</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <ul>
+        <li>facebook</li>
+        <li>twitter</li>
+        <li>instagram</li>
+    </ul>
+
+    <!-- z-index -->
+    <div class="layer1">
+        I'm a layer 1
+    </div>
+    <div class="layer2">
+        I'm a layer 2
+    </div>
+    <div class="layer3">
+        I'm a layer 3
+    </div>
+
+</body>
+</html>

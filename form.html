@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form elements</title>
+</head>
+<body>
+    
+    <!-- Form elements
+            form = parent element
+            input
+            label
+            select
+            option
+            textarea
+            button
+
+        attributes
+            action
+            method
+            type
+            name
+            id
+            for
+            value
+            placeholder
+            required
+            maxlenght
+            minlenght
+            min
+            max
+    -->
+    <h1>Form Elements</h1>
+    <form action="https://kredo.jp" method="get">
+        <label for="fullname">Full Name:</label>
+        <input type="text" name="fullname" id="fullname" placeholder="Last Name, First Name">
+
+        <label for="email-address">Email Address:</label>
+        <input type="email" name="email-address" id="email-address" placeholder="yourmail@gmail.com">
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Your Password Here">
+
+        <label for="birthday">Birth Date:</label>
+        <input type="date" name="birthday" id="birthday">
+        <br>
+        <label for="comment">Comments:</label>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Type your comments here."></textarea>
+
+        <button>send</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table element</title>
+</head>
+<body>
+    <h1>Table Elements</h1>
+
+    <h2>Sample Table 1 using tr,th, and td</h2>
+    <table border="1" width="300px">
+        <!-- tr = table row -->
+        <tr>
+            <!-- th = table header (column) -->
+            <th>Title 1</th>
+            <th>Title 2</th>
+            <th rowspan="3">Title 3</th>
+        </tr>
+        <tr>
+            <!-- td = table data (column) -->
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <!-- <td>Data 3</td> -->
+        </tr>
+        <tr>
+            <td>Data 4</td>
+            <td>Data 5</td>
+            <!-- <td>Data 6</td> -->
+        </tr>
+        <tr>
+            <th colspan="3">Total 1</th>
+            <!-- <th>Total 2</th>
+            <th>Total 3</th> -->
+        </tr>
+    </table>
+
+    <!-- Combine cells using attributes:
+            colspan = merge column cells
+            rowspan = merge row celss
+    -->
+
+    <h2>Sample Table using colspan</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Contact Numbers</th>
+            <!-- <th></th> -->
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>840328423048</td>
+            <td>234343454545</td>
+        </tr>
+        <tr>
+            <td>Steve Jobs</td>
+            <td>564543455677</td>
+            <td>343423454545</td>
+        </tr>
+    </table>
+
+    <h2>Sample TAble using rowspan</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <td>Bill Gates</td>
+            <td>Steve Jobs</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Contact Numbers</th>
+            <td>342345456565676</td>
+            <td>324234234234234</td>
+
+        </tr>
+        <tr>
+            <!-- <th></th> -->
+            <td>480238423442343</td>
+            <td>342342342342342</td>
+        </tr>
+    </table>
+</body>
+</html>

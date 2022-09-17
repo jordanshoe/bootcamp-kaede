@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colspan</title>
+</head>
+<body>
+    <h1>Colspan attribute</h1>
+    <!-- colspan attribute
+            merge = combine 
+            -> merge column cells
+            colspan = merge or span column cells
+
+    -->
+    <table border="1">
+           <tr>
+               <th>Name</th>
+               <th colspan="2">Contact Numbers</th>
+               <!-- <th></th> -->
+           </tr> 
+           <tr>
+               <td>Bill Gates</td>
+               <td>54805840542</td>
+               <td>64536345345</td>
+           </tr>
+           <tr>
+               <td>Steve Jobs</td>
+               <td>45645645645</td>
+               <td>34112312312</td>
+           </tr>
+    </table>
+
+    <h1>rowspan attribute</h1>
+     <!-- rowspan attribute
+            merge = combine 
+            -> merge row cells
+            rowspan = merge or span row cells
+
+    -->
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <td>Bill Gates</td>
+            <td>Steve Jobs</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Contact Numbers</th>
+            <td>482034830248</td>
+            <td>234353453454</td>
+        </tr>
+        <tr>
+            <!-- <th></th> -->
+            <td>341242342344</td>
+            <td>543645456456</td>
+        </tr>
+        <tr>
+            <th></th>
+            <td>341242342344</td>
+            <td>543645456456</td>
+        </tr>
+    </table>
+
+</body>
+</html>

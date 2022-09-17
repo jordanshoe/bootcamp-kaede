@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ms+Madi&display=swap');
+
+/* 
+    font-family: 'Anton', sans-serif;
+    font-family: 'Ms Madi', cursive;
+*/
+
+h1{
+    color: red;
+    color: rgb(0, 253, 0);
+    color: rgba(0,0,0,.2);
+    color: #000000;
+    font-family:serif ;
+
+}
+
+h2{
+    font-family: sans-serif;
+}
+h3{
+    font-family: monospace;
+}
+.chapter{
+    font-family: 'Anton', sans-serif;
+}
+.chapter-1 p{
+    font-family: 'Ms Madi', cursive;
+}
